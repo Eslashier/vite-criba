@@ -1,0 +1,17 @@
+.col {
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    height: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
