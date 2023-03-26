@@ -12,9 +12,12 @@ function App() {
   const [seven, setSeven] = useState(false);
 
   return (
-    <div>
+    <div className="mainContainer">
       <Container className="main">
-        <h1>Actividad eje 4</h1>
+        <h1>Actividad eje 4 - 202310-1A - 11</h1>
+        <h5>Santiago Andrés Santana Sora</h5>
+        <h5>John Sebastian Martínez Zabala</h5>
+        <h5>Andrés Felipe López Vargas</h5>
         <Row className="justify-content-md-center">
           <Rows
             number={1}
@@ -25,8 +28,7 @@ function App() {
             seven={seven}
           />
         </Row>
-      </Container>
-      <div className="buttons">
+        <div className="buttons">
         <button
           className="button"
           style={{ backgroundColor: "#1AA3E8" }}
@@ -63,6 +65,8 @@ function App() {
           7
         </button>
       </div>
+      </Container>
+      
     </div>
   );
 }
